@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<!-- banner -->
+<div class="inside-banner">
+  <div class="container">
+    <span class="pull-right"><a href="/#">Home</a> / About Us</span>
+    <h2>About Us</h2>
+</div>
+</div>
+<!-- banner -->
+
+
+<div class="container">
+<div class="spacer">
+<div class="row">
+  <div class="col-lg-8  col-lg-offset-2">
+  <img src="{% static 'images/about.jpg' %}" class="img-responsive thumbnail"  alt="realestate">
+  <h3>Business Background</h3>
+<p>Founded in 2016, CFI is the largest and most recognized finance training, certification, and skill development platform in the world. Powered by leading instructors, innovative curriculum designers, and proprietary technology,</p>  <h3>Company Profile</h3>
+    <p> CFI provides the leading resource for finance professionals globally, including productivity tools, certification, and online training for financial modeling, valuation, lending,
+      securities, capital markets, data science, business intelligence, cryptocurrencies, and more.
+    Corporate Finance Institute designs courses, models, templates, and case studies with professional Wall Street trainers, who have been teaching classes for new hires
+      at global investment banks and financial industry leaders for over twenty years.</p>
+      <p>Real Estate Management System (REMS) is an online real estate software application that manages the overall operational activities and processes, starting from the management of the property, to the management of real estate agencies, agents, clients and financial transactions. It provides comprehensive reports for managing the Real Estate agency performance and efficiency, and enables the management for a better decision-making
+As complete real estate management software, REMS can provide your business with immediate and ongoing benefits, meaning better margins and cost efficiencies in all aspects of the business.</p>
+     </div>
+
+</div>
+</div>
+</div>
+
+
+{% endblock %}
